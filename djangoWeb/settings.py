@@ -78,7 +78,7 @@ ROOT_URLCONF = "djangoWeb.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'templetes')],# templetes 디렉토리 추적하기 위해 작성
+        "DIRS": [os.path.join(BASE_DIR, 'templates')],# templates 디렉토리 추적하기 위해 작성
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
