@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+{#  css 및 스타일 링크 주입 역할 하는 것으로 판단  #}
 {% include 'head.html'  %}
 
 
 
 <body>
-    {% include 'header.html'  %}
+{#  body는 3가지 부분(header, block, footer)으로 파티션  #}
 
+    {% include 'header.html'  %}
+    <hr>
+
+    {#  block 으로 객체 및 페이지 별 달리 적용 될 부분  #}
     {% block content %}
     {% endblock%}
 
+    <hr>
     {% include 'footer.html'  %}
 </body>
 
