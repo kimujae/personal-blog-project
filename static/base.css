@@ -1,0 +1,40 @@
+/*
+footer.html
+css style
+*/
+.footer{
+    text-align : center;
+    margin-top: 2rem;
+}
+
+
+.footer_menu{
+    font-size : .6rem;
+}
+
+
+.footer_logo{
+    margin-top: .8rem;
+    font-family: 'Roboto Condensed';
+}
+
+
+
+/*
+header.html
+css style
+*/
+.header{
+    text-align : center;
+    margin: 1.5rem 0;
+}
+
+.header_logo{
+    font-family: 'Roboto Condensed' , sans-serif
+}
+
+.header_nav{
+    font-size : 0.6rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
